@@ -13,7 +13,7 @@ public class HotDrinkVM extends VendingMachine {
         super();
     }
 
-    public HotDrinkVM getProduct1(String name, int volume, int temperature) {
+    /*public HotDrinkVM getProduct(String name, int volume, int temperature) {
 
         for (HotDrinkVM param : products) {
             if (param.getName().equals(name)) {
@@ -23,7 +23,7 @@ public class HotDrinkVM extends VendingMachine {
         }
 
         throw new RuntimeException("No such product: " + name);
-    }
+    }*/
 
     @Override
     public void addProducts(List<Product> products) {

@@ -39,7 +39,9 @@ public class ProductMain {
 
         vm1.addProducts(List.of(drink1,drink1,drink2,drink3,drink4));
         System.out.println(vm1.getProducts());
-        vm1.getProduct1("Латте";0.3F;70);
+        System.out.println("Удаление продукта Латте");
+        vm1.getProduct("Латте");
+        System.out.println(vm1.getProducts());
 
 
     }
